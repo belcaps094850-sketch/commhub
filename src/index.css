@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+  font-family: Arial, sans-serif;
+  color: #333;
+  font-size: 14px;
+}
+
+a { color: #333; text-decoration: none; }
