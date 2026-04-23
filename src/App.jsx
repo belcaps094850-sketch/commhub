@@ -18,6 +18,7 @@ import ABTesting from './components/ABTesting'
 import ScheduledReports from './components/ScheduledReports'
 import JourneyMap from './components/JourneyMap'
 import DragDropDesigner from './components/DragDropDesigner'
+import NextSteps from './components/NextSteps'
 
 function App() {
   const store = useStore()
@@ -62,6 +63,7 @@ function App() {
       case 'abtesting': return <ABTesting store={store} />
       case 'reports': return <ScheduledReports store={store} />
       case 'journey': return <JourneyMap store={store} />
+      case 'nextsteps': return <NextSteps />
       default: return <DashboardWidgets onNavigate={setPage} store={store} />
     }
   }

@@ -42,6 +42,12 @@ const navSections = [
     items: [
       { key: 'access', label: 'Access Control', icon: '🛡️', permission: 'manage_roles' },
     ]
+  },
+  {
+    label: 'Planning',
+    items: [
+      { key: 'nextsteps', label: 'Next Steps', icon: '🚀' },
+    ]
   }
 ]
 
